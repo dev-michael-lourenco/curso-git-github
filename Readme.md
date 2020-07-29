@@ -101,3 +101,15 @@ CUSRO GIT E GITHUB
     # COPIAR A CHAVE QUE APARECE (UM TEXTO GIGANTE COM UM MONTE DE CARACTERES MISTURADOS)
     # ADICIONAR ESSA CHAVE EM SETTINGS DO GITHUB NEW SSH KEY
     # DAR UM NOME (NÃO IMPORTA MT ESSE NOME) E COLAR A CHAVE NO CAMPO
+
+# LIGANDO REPOSITORIO LOCAL A UM REMOTO
+    # COMO NOSSO REPOSITORIO LOCAL E REMOTO JÁ EXISTEM, BASTA DIGITAR NO PROMPT
+    # git remote add origin <caminho do repositoriio>
+    # EX:
+    # git remote add origin https://github.com/dev-michael-lourenco/curso-git-github.git
+    # EM SEGUIDA
+    # git push -u origin master
+    # digitar nome de usuario
+    # digitar password
+    
+
