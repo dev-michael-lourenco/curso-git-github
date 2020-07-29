@@ -212,3 +212,14 @@
     # NO MEIO DO DESENVOLVIMENTO TENTAR USAR O REBASE
     # NO FINAL QUANDO FOR UNIR, USAR O MERGE
 
+# EXTRAS
+
+# CRIANDO O .GITIGNORE
+    # o que você não quer usar para o repositório
+
+# GIT STASH
+    # guarda modificações que ainda não foram comitadas num arquivo que pode ser chamado depois, quando for necessario
+    # git stash
+    # git stash list
+    # git stash clear
+
