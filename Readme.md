@@ -212,7 +212,7 @@
     # NO MEIO DO DESENVOLVIMENTO TENTAR USAR O REBASE
     # NO FINAL QUANDO FOR UNIR, USAR O MERGE
 
-# EXTRAS
+# SECAO 6: EXTRAS
 
 # CRIANDO O .GITIGNORE
     # o que você não quer usar para o repositório
@@ -234,5 +234,15 @@
     # git push origin master --tags
 
 # GIT REVERT
-    # EX
+    # EX:
     # git revert ae95356d93fbc9ff1006bfb716044d0cbf7885ea
+
+# APAGANDO TAGS E BRANCHS REMOTOS
+    # APAGANDO TAGS REMOTAS
+    # git push origin :<nome da tag>
+    # EX:
+    # git push origin :1.0.0
+    # APAGANDO BRANCHES
+    # git push origin :<nome da branch>
+    # EX:
+    # git push origin :teste    
