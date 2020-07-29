@@ -203,7 +203,12 @@
 
 # MERGE E REBASE NA PRATICA
     # MERGE
-    # git merge <nome do branch q se unira o atual>
+    # git merge <nome do branch que se unira ao atual>
+    # REBASE
+    # git rebase <nome do branch que se unira ao atual>
 
 
+# OBSERVAÇÃO/DICA
+    # NO MEIO DO DESENVOLVIMENTO TENTAR USAR O REBASE
+    # NO FINAL QUANDO FOR UNIR, USAR O MERGE
 
