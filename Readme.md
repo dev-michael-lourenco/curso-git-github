@@ -226,3 +226,13 @@
 # ALIAS
     # EX:
     # git config --globa alias.s status
+
+# VERSIONAMENTO COM TAGS
+    # EX:
+    # git tag -a 1.0.0 -m "A mensagem que voce quiser"
+    # depois envia 
+    # git push origin master --tags
+
+# GIT REVERT
+    # EX
+    # git revert ae95356d93fbc9ff1006bfb716044d0cbf7885ea
