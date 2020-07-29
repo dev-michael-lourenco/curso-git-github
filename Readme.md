@@ -223,3 +223,6 @@
     # git stash list
     # git stash clear
 
+# ALIAS
+    # EX:
+    # git config --globa alias.s status
