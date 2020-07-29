@@ -104,9 +104,11 @@ CUSRO GIT E GITHUB
 
 # LIGANDO REPOSITORIO LOCAL A UM REMOTO
     # COMO NOSSO REPOSITORIO LOCAL E REMOTO JÁ EXISTEM, BASTA DIGITAR NO PROMPT
-    # git remote add origin <caminho do repositoriio>
-    # EX:
+    # git remote add origin <caminho do repositorio>
+    # EX (https):
     # git remote add origin https://github.com/dev-michael-lourenco/curso-git-github.git
+    # EX (ssh):
+    # git remote add origin git@github.com:dev-michael-lourenco/curso-git-github.git 
     # EM SEGUIDA
     # git push -u origin master
     # digitar nome de usuario
@@ -117,3 +119,8 @@ CUSRO GIT E GITHUB
     # git push origin <branch> 
     # EX
     # git push origin master
+
+# CLONANDO REPOSITORIOS REMOTOS
+    # git clone <caminho do repositorio>
+    # EX (ssh):
+    # git clone git@github.com:dev-michael-lourenco/curso-git-github.git 
