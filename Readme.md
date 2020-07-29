@@ -68,3 +68,11 @@ CUSRO GIT E GITHUB
 # VISUALIZANDO O DIFF
     # git diff
 
+# DESFAZENDO COISAS
+    # se nao estiver modificacdo (add)
+    # git checkout <nome do arquivo>
+    
+    # se estiver modificado (add e pronto pra ser comitado)
+    # git reset HEAD R<nome do arquivo> (tira ele do stage) 
+    # em seguida
+    # git checkout <nome do arquivo>
