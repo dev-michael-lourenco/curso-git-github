@@ -177,11 +177,23 @@
     # git branch -D teste
 
 # ENTENDENDO O MERGE
-    # cria um novo commit e junta as outras branchs num ciclo ou forma diamante
-    # sempre que criar um merge, ele criar um branch separado para unir os outros branches
+    # Cria um novo commit e junta as outras branchs num ciclo ou forma diamante
+    # Sempre que criar um merge, ele criar um branch separado para unir os outros branches
 # PROS
     # Operação não destrutiva
     # Não mexe no histórico
 # CONTRAS
     # Cria um commit extra cujo unico sentido de existir é fazer a união dos branches
     # Histórico poluído
+
+# ENTENDENDO O REBASE
+    # Move para frente da branch que ele esta enviando, pegando tudo que ele tinha no branch separado e bota no inicio da fila do novo branch (fast foward).
+    # Assim, tanto a branch que fez o rebase como a que recebeu o mesmo, estarão apontando para o mesmo commit, mantendo a linearidade do historico
+# PROS
+    # Evita commits extras
+    # Historico linear
+
+# CONTRAS
+    # Perde ordem cronologica
+    # Mudanca de historico
+
