@@ -1,17 +1,20 @@
-CUSRO GIT E GITHUB
+# CUSRO GIT E GITHUB
 
 # SECAO 1: ENTENDENDO GIT E GITHUB
 
 # INTRODUÇÃO
 
 # CONTROLE DE VERSÃO
+
 # DIFERENCAS ENTRE GIT E OUTROS 
  	# OUTROS GUARDAM A DIFERENCA DOS ARQUIVOS DAS VERSÕES
+
 # GIT GUARDA O ESTADO 
 
 # HISTORIA DO GIT
 	# CONTROLE DO KERNEL DO LINUX
 	# LINUS FEZ O CONTROLE DELE
+
 # MELHORIAS
 	# DESIGN
 	# SIMPLES
@@ -27,17 +30,23 @@ CUSRO GIT E GITHUB
 # SECAO 2: CONFIGURANDO O GIT
 
 # INSTALANDO
+
 # CONFIGURAÇÃO INICIAL
+
+# SECAO 3:ESSENCIAL DO GIT
 
 # INICIALIZANDO UM REPOSITORIO
 	# .git - repositorio git
+
 # USANDO O EDITOR DO TERMINAL
+
 # CICLO DE VIDA DOS STATUS DOS ARQUIVOS
 	# 4 ESTADOS[
 	# UNTRACKED
 	# UNMODIFIED
 	# MODIFIED
 	# STAGED
+
 # DETALHANDO CICLO
 	# UNTRACKED
 		# ARQUIVO FOI ADICIONADO MAS AINDA NÃO VISTO PELO GIT
@@ -50,7 +59,7 @@ CUSRO GIT E GITHUB
 		# SE VOCÊ ENVIA-LO PARA CRIAR A VERSÃO ATUAL ELE FICA COMO STAGED
 
 # ESTADO LOGO APÓS O COMMIT
-# APÓS FAZER O COMMIT, OS ARQUIVOS VOLTAM AO ESTADO UNMODIFIED, POIS, NA VERSÃO MAIS ATUALIZADA ESTES ARQUIVOS AINDA NÃO FORAM MODIFICADOS
+    # APÓS FAZER O COMMIT, OS ARQUIVOS VOLTAM AO ESTADO UNMODIFIED, POIS, NA VERSÃO MAIS ATUALIZADA ESTES ARQUIVOS AINDA NÃO FORAM MODIFICADOS
 
 # O QUE SIGNIFICA COMANDO GIT ADD
     # É QUANDO VOCE INFORMA AO GIT QUE QUER INSERIR AQUELE ESTADO ATUAL DO ARQUIVO NA PRÓXIMA VERSÃO
@@ -58,6 +67,7 @@ CUSRO GIT E GITHUB
 # O QUE É O COMMIT
     # É QUANDO VOCE AVISA AO GIT: OLHA, PEGA TODOS ESTES ARQUIVOS DO REPOSITÓRIO E CRIE UMA IMAGEM DELE ( TIPO UM SNAPSHOT, UMA VERSÃO )
     git commit -m "Add Readme.md"
+
 # O -m SIGNIFICA MENSAGEM, O QUE ESTA ENTRE "bla bla bla"  E A MENSAGEM EM SI
     # E INTERESSANTE QUE A MENSAGEM ENVIADA SEJA DIRETA E EXPLICATIVA DO QUE FOI REALIZADO
 
@@ -86,6 +96,8 @@ CUSRO GIT E GITHUB
     # EX
     # 1 - usar o git log pra pegar a hash do penultimo (ou ponto) ponto onde você quer voltar. Pegar o ultimo, pois o git ira ignorar o hash após aquele, como se ele não existisse
     # 2 - git reset --soft 83a2d46465d7689438574d8c6580391df1cb12cd
+
+# SECAO 4: REPOSITORIOS REMOTOS
 
 # REPOSITORIOS REMOTOS
     # UTILIZAREMOS O GITHUB
@@ -133,4 +145,13 @@ CUSRO GIT E GITHUB
     # com o fork você pode enviar as alterações para submeter a mesma para o dono do repositorio original
     # ou seja, você pode até clonar um repositório de terceiro, mas as alterações não serão realizadas no projeto principal, a não ser que você tenha feito um fork e, atraves dele, envie estas mudanças para submeter a análise do dono do repositório principal
 
+
+# SEÇÃO 5: RAMIFICACAO ( BRANCH)
+    # O QUE E UM BRANCH E POR QUE USAR?
+        # O branch é um ponteiro móvel que leva a um commit 
+    # POR QUE USAR UMA BRANCH?
+        # Poder modificar os arquivos sem alterar o local principal (master)
+        # Facilmente "desligável"
+        # Múltiplas pessoas trabalhando
+        # Evita conflitos
 
