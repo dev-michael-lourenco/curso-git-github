@@ -66,11 +66,13 @@
 
 # O QUE É O COMMIT
     # É QUANDO VOCE AVISA AO GIT: OLHA, PEGA TODOS ESTES ARQUIVOS DO REPOSITÓRIO E CRIE UMA IMAGEM DELE ( TIPO UM SNAPSHOT, UMA VERSÃO )
-    git commit -m "Add Readme.md"
+    # git commit -m "Add Readme.md"
 
 # O -m SIGNIFICA MENSAGEM, O QUE ESTA ENTRE "bla bla bla"  E A MENSAGEM EM SI
     # E INTERESSANTE QUE A MENSAGEM ENVIADA SEJA DIRETA E EXPLICATIVA DO QUE FOI REALIZADO
 
+# GIT COMMIT -AM "MENSAGEM"
+    # o -am adiciona e comita ao mesmo tempo. ( une o add com o -m)
 
 # VISUALIZANDO LOGS
     # git log
@@ -155,3 +157,31 @@
         # Múltiplas pessoas trabalhando
         # Evita conflitos
 
+# CRIANDO UM BRANCH
+    # git checkout -b <nome da branch>
+    #EX:
+    # git checkout -b teste
+
+# VERIFICAR EM QUE BRANCH ESTOU
+    # git branch
+
+# MOVENDO E DELETANDO BRANCH
+    # pra mudar de branch
+    # git checkout <nome da branch>
+    # EX:
+    # ir da branch "master" para a branch "teste
+    # git checkout teste
+    # pra deletar
+    # git branch -D < nome da branch>
+    # EX:
+    # git branch -D teste
+
+# ENTENDENDO O MERGE
+    # cria um novo commit e junta as outras branchs num ciclo ou forma diamante
+    # sempre que criar um merge, ele criar um branch separado para unir os outros branches
+# PROS
+    # Operação não destrutiva
+    # Não mexe no histórico
+# CONTRAS
+    # Cria um commit extra cujo unico sentido de existir é fazer a união dos branches
+    # Histórico poluído
