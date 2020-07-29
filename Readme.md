@@ -1,4 +1,7 @@
 # CUSRO GIT E GITHUB
+Apenas anotações do que estudei neste curso:
+
+[Git e GitHub para iniciantes](https://www.udemy.com/course/git-e-github-para-iniciantes/)
 
 # SECAO 1: ENTENDENDO GIT E GITHUB
 
@@ -11,8 +14,8 @@ GIT é utilizado para controle de versão
 	- GIT guarda o estado 
 
 ## HISTORIA DO GIT
-	- CONTROLE DO KERNEL DO LINUX
-	- LINUS FEZ O CONTROLE DELE
+	- Controle do kernel do linux
+	- Linus fez o controle dele, o git
 
 ### MELHORIAS
 	- DESIGN
@@ -48,27 +51,27 @@ GIT é utilizado para controle de versão
 
 ## DETALHANDO CICLO
 	- UNTRACKED
-		- ARQUIVO FOI ADICIONADO MAS AINDA NÃO VISTO PELO GIT
+		- Arquivo foi adicionado mas ainda não visto pelo git
 	- UNMODIFIED
-		- QUANDO ADICIONADO AO GIT ELE RECEBE ESTE STATUS
-		- EXISTE NO GIT MAS AINDA NÃO FOI EDITADO/MODIFICADO
+		- Quando adicionado ao git ele recebe este status
+		- Existe no git mas ainda não foi editado/modificado
 	- MODIFIED
-		- EXISTE E FOI ALTERADO
+		- Existe e foi alterado
 	- STAGED
-		- SE VOCÊ ENVIA-LO PARA CRIAR A VERSÃO ATUAL ELE FICA COMO STAGED
+		- Se você enviá-lo para criar a versão atual ele fica como staged
 
 ### ESTADO LOGO APÓS O COMMIT
-    APÓS FAZER O COMMIT, OS ARQUIVOS VOLTAM AO ESTADO UNMODIFIED, POIS, NA VERSÃO MAIS ATUALIZADA ESTES ARQUIVOS AINDA NÃO FORAM MODIFICADOS
+    Após fazer o commit, os arquivos voltao ao estado umnomified, pois, na versão mais atualizada, estes arquivos ainda não foram modificados
 
 ### O QUE SIGNIFICA COMANDO GIT ADD
-    É QUANDO VOCE INFORMA AO GIT QUE QUER INSERIR AQUELE ESTADO ATUAL DO ARQUIVO NA PRÓXIMA VERSÃO
+    É quando você iforma ao git que quer inserir aquele estado atual do arquivo na próxima versão
 
 ## O QUE É O COMMIT
-    - É QUANDO VOCE AVISA AO GIT: OLHA, PEGA TODOS ESTES ARQUIVOS DO REPOSITÓRIO E CRIE UMA IMAGEM DELE ( TIPO UM SNAPSHOT, UMA VERSÃO )
+    - É quando você avisa ao git: Olha, pega todos estes arquivos do repostitório e crie uma imagem dele ( tipo um snapshot, uma versão )
     - git commit -m "Add Readme.md"
 
 ### O -m SIGNIFICA MENSAGEM, O QUE ESTA ENTRE "bla bla bla"  E A MENSAGEM EM SI
-    - É INTERESSANTE QUE A MENSAGEM ENVIADA SEJA DIRETA E EXPLICATIVA DO QUE FOI REALIZADO
+    - É interessante que a mensagem enviada seja direta e explicativa do que foi realizado
 
 ### GIT COMMIT -AM "MENSAGEM"
     - O -am adiciona e comita ao mesmo tempo. ( une o add com o -m)
@@ -198,8 +201,8 @@ GIT é utilizado para controle de versão
     - Mudanca de historico
 
 ### RESUMO DAS DIFERENCAS
-    - O MERGE CRIA UM NOVO COMMIT PARA JUNTAR AS DIFERENCAS (MANTEM HISTORICO LINEAR)
-    - O REBASE JOGA AS MUDANCAS PARA O INICIO DA FILA       (MANTEM ESTRUTURA LINEAR)
+    - O merge cria um novo commit para juntar as diferenças (MANTEM HISTORICO LINEAR)
+    - O rebase joga as mudanças para o início da fila       (MANTEM ESTRUTURA LINEAR)
 
 ## MERGE E REBASE NA PRATICA
     - MERGE
@@ -209,8 +212,8 @@ GIT é utilizado para controle de versão
 
 
 ### OBSERVAÇÃO/DICA
-    - NO MEIO DO DESENVOLVIMENTO TENTAR USAR O REBASE
-    - NO FINAL QUANDO FOR UNIR, USAR O MERGE
+    - No menio do desenvolvimento, tentar usar o rebase
+    - No final quando for unir, usar o merge
 
 # SECAO 6: EXTRAS
 
@@ -218,7 +221,7 @@ GIT é utilizado para controle de versão
     - o que você não quer usar para o repositório
 
 ### GIT STASH
-    - guarda modificações que ainda não foram comitadas num arquivo que pode ser chamado depois, quando for necessario
+    - Guarda modificações que ainda não foram comitadas num arquivo que pode ser chamado depois, quando for necessário
     - git stash
     - git stash list
     - git stash clear
