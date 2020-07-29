@@ -86,4 +86,8 @@ CUSRO GIT E GITHUB
     # EX
     # 1 - usar o git log pra pegar a hash do penultimo (ou ponto) ponto onde você quer voltar. Pegar o ultimo, pois o git ira ignorar o hash após aquele, como se ele não existisse
     # 2 - git reset --soft 83a2d46465d7689438574d8c6580391df1cb12cd
-             
+
+# REPOSITORIOS REMOTOS
+    # UTILIZAREMOS O GITHUB
+
+    
