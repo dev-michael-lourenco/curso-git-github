@@ -124,3 +124,13 @@ CUSRO GIT E GITHUB
     # git clone <caminho do repositorio>
     # EX (ssh):
     # git clone git@github.com:dev-michael-lourenco/curso-git-github.git 
+
+# FAZENDO FORK DE UM PROJETO
+    # o fork pega um projeto que não é seu e faz uma cópia pra você
+    # ai você faz a mudança e envia um pull request informando o que alterou
+    # a diferença do clone é:
+    # você só consegue enviar alterações feitas para um repositório próprio
+    # com o fork você pode enviar as alterações para submeter a mesma para o dono do repositorio original
+    # ou seja, você pode até clonar um repositório de terceiro, mas as alterações não serão realizadas no projeto principal, a não ser que você tenha feito um fork e, atraves dele, envie estas mudanças para submeter a análise do dono do repositório principal
+
+
