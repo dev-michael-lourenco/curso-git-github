@@ -111,5 +111,9 @@ CUSRO GIT E GITHUB
     # git push -u origin master
     # digitar nome de usuario
     # digitar password
-    
 
+# ENVIANDO MUDANÇAS PARA UM REPOSITÓRIO REMOTO
+    # APOS REALIZAR O COMMIT
+    # git push origin <branch> 
+    # EX
+    # git push origin master
