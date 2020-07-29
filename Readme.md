@@ -76,3 +76,9 @@ CUSRO GIT E GITHUB
     # git reset HEAD R<nome do arquivo> (tira ele do stage) 
     # em seguida
     # git checkout <nome do arquivo>
+
+    # se já commitei
+    # existem 3 tipos de reset
+    # git reset --soft [destroi o commit e deixa staged]
+    # git reset -- mixed [destroi o commit e volta antes do staged, ou seja, modified]
+    # git reset --hard [destori o commit como se ele o que foi feito nele não existisse]
