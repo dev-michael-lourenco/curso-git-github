@@ -82,3 +82,8 @@ CUSRO GIT E GITHUB
     # git reset --soft [destroi o commit e deixa staged]
     # git reset -- mixed [destroi o commit e volta antes do staged, ou seja, modified]
     # git reset --hard [destori o commit como se ele o que foi feito nele não existisse]
+
+    # EX
+    # 1 - usar o git log pra pegar a hash do penultimo (ou ponto) ponto onde você quer voltar. Pegar o ultimo, pois o git ira ignorar o hash após aquele, como se ele não existisse
+    # 2 - git reset --soft 83a2d46465d7689438574d8c6580391df1cb12cd
+             
